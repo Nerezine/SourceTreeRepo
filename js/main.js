@@ -9,7 +9,7 @@ $(window).scroll(function(event){  /*window = obszar widoczny ograniczony wielko
 
 setInterval(function() {
     if(weScrolled){
-      weDidScroll(); /*nowa metoda jest tu konieczna, bo jesli weScrolled=false, to nic dalej sie nie wykona, a powinno */
+      weDidScroll(); /*nowa metoda jest konieczna, bo jesli weScrolled=false, to nic dalej sie nie wykona, a powinno */
       weScrolled = false;
     }
 }, 300);
